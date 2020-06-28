@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY  = "r45an24ct(9hy3=bm6n-%mzgj-9n&bb144@e=-z0h1@q5ml4nl"
 HASH = os.environ.get("ALGORITHM")
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
